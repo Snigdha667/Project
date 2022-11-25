@@ -18,6 +18,21 @@ rad[0].addEventListener('click',function onClick(event) {
     // 👇️ optionally change text color
     // document.body.style.color = 'white';
   });
+  rad[2].addEventListener('click',function onClick(event) {
+    // 👇️ change background color
+    document.body.style.backgroundColor = 'yellow';
+    h1.style.color='orange';
+  
+    // 👇️ optionally change text color
+    // document.body.style.color = 'white';
+  });
+  rad[3].addEventListener('click',function onClick(event) {
+    // 👇️ change background color
+    document.body.style.backgroundColor = 'black';
+    h1.style.color='white';
+    // 👇️ optionally change text color
+    // document.body.style.color = 'white';
+  });
 
 btn.addEventListener('click',()=>{
     const t=search.value;
