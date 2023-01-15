@@ -1,0 +1,28 @@
+*{
+    margin: 0 0 0 0;
+    padding: 1%;
+    text-align: center;
+}
+body{
+    background-color: rgb(245, 233, 233);
+}
+div{
+    padding: 2%;
+    margin: 3%;
+    border: 2px gray solid;
+}
+.color{
+    display: inline;
+}
+section {
+    position: relative;
+margin-right: 70%;
+}
+.u{
+    padding: 0;
+}
+.color{
+    background-color: white;
+    border: none;
+    border-radius: 0 0 20% 20% ;
+}
